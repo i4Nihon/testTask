@@ -1,26 +1,26 @@
-## /players
+# /players
 pobiera liste wszystkich graczy
 
-## /players/[nazwaGracza]
+# /players/[nazwaGracza]
 pobiera konkretnego gracza
 
-## /players/register
+# /players/register
 dodaje gracza do bazy danych *wyamaga headerów*
 
-# headers: 
+### headers: 
 name: [nazwaGracza] 
 player_team: [nazwaDrużyny(opcjonelne)] 
 is_team_new: [czyTworzyDrużyne(opcjonelne)]
 
-## /teams
+# /teams
 pobiera liste wszystkich drużyn
 
-## /players/[nazwaDrużyny]
+# /players/[nazwaDrużyny]
 pobiera konkretną drużyne
 
-## /players/register
+# /players/register
 dodaje drużyne do bazy danych *wyamaga headerów*
 
-# headers: 
+### headers: 
 name: [nazwaDrużyny] 
 leader: [nazwaPrzywódcyDrużyny(musiIstniećJakoGracz)]
